@@ -1,0 +1,122 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family: "Roboto";
+	color:rgb(30,30,30); 
+	background-color:rgb(50,50,50);
+}
+
+#wrapper {
+	width:100%;
+	text-align:center;
+	max-width:1500px;
+	margin:0px auto 0px auto;
+	
+}
+
+#header {
+	position:absolute;
+	height:60px;
+	width:100%;
+	top:0px;
+}
+
+#nav-bkground {
+	position:absolute;
+	top:50%;
+	width:100%;
+	transform: translateY(-50%);
+	height:100%;
+	opacity:0.75;
+	//background-color:#2196F3;
+	//filter: blur(3px);
+	
+}
+
+#nav-div {
+	position:absolute;
+	text-align:center;
+	top:50%;
+	transform: translateY(-50%);
+	width:100%;
+}
+
+#nav-list {
+	list-style:none;
+}
+
+#nav-list li {
+	display:inline;
+	padding:20px;
+	
+}
+
+#nav-list li  a {
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+}
+
+
+#nav-list li  a:hover {
+	color:rgb(50,50,50);
+}
+
+
+#main-img {
+	background-image:url("Assets/flag-football-kids.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	//width:1200px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:2px rgb(200,200,200) solid;
+	//-webkit-filter: blur(3px);
+	//filter: blur(3px);
+}
+
+.main-img-desc {
+	position:absolute;
+	top:50px;
+	margin:25px;
+	float:left;
+	height:450px;
+	width:300px;
+	padding:10px;
+}
+
+#desc-bkground {
+	background-color:white;
+	opacity:0.85;
+	border-radius:8px;
+	
+}
+
+
+#screenshots-div {
+	background-color:rgb(245,245,245);
+	padding:0px;
+	//padding-left:5%;
+	
+}
+
+#screenshot-img {
+	width:100%;
+}
+
+.screenshot-div {
+	float:left;
+	width:45%;
+	padding:2.5%;
+}
+
+#content {
+	position:relative;
+	width:100%;
+	background-color:rgb(245,245,245);
+	margin:0px;
+	padding:25px;
+	
+}
