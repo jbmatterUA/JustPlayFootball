@@ -94,6 +94,10 @@ body {
 	
 }
 
+h2 {
+font-weight:300;font-size:30px;
+}
+
 
 #screenshots-div {
 	background-color:rgb(245,245,245);
