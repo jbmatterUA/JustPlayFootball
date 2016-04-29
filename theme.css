@@ -99,6 +99,16 @@ body {
 	background-color:rgb(245,245,245);
 	padding:0px;
 	//padding-left:5%;
+	font-size:28px;
+	font-weight:300;
+	
+}
+
+#video-div {
+	//background-color:rgb(245,245,245);
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-left:5%;
 	
 }
 
